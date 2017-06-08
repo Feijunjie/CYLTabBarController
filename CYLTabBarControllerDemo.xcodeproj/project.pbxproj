@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		253AE3F7BA18E07ED69FDF70 /* libPods-CYLTabBarControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CAB602C05AD55326CFDDE2 /* libPods-CYLTabBarControllerDemo.a */; };
+		7CED05BD1EE7FD31002ADB05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED05BC1EE7FD31002ADB05 /* main.m */; };
+		7CED05C01EE7FD31002ADB05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED05BF1EE7FD31002ADB05 /* AppDelegate.m */; };
+		7CED05C31EE7FD31002ADB05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED05C21EE7FD31002ADB05 /* ViewController.m */; };
+		7CED05C61EE7FD31002ADB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CED05C41EE7FD31002ADB05 /* Main.storyboard */; };
+		7CED05C81EE7FD31002ADB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CED05C71EE7FD31002ADB05 /* Assets.xcassets */; };
+		7CED05CB1EE7FD31002ADB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CED05C91EE7FD31002ADB05 /* LaunchScreen.storyboard */; };
+		7CED05D61EE7FD31002ADB05 /* CYLTabBarControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED05D51EE7FD31002ADB05 /* CYLTabBarControllerDemoTests.m */; };
+		7CED05E11EE7FD32002ADB05 /* CYLTabBarControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED05E01EE7FD32002ADB05 /* CYLTabBarControllerDemoUITests.m */; };
+		7CED05F01EE8005C002ADB05 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED05EF1EE8005C002ADB05 /* MainViewController.m */; };
+		7CED05F31EE80096002ADB05 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED05F21EE80096002ADB05 /* OneViewController.m */; };
+		7CED05F61EE8009F002ADB05 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED05F51EE8009F002ADB05 /* TwoViewController.m */; };
+		7CED05F91EE80750002ADB05 /* SmallOneBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED05F81EE80750002ADB05 /* SmallOneBtn.m */; };
+		7CED05FC1EE82FF3002ADB05 /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED05FB1EE82FF3002ADB05 /* CYLTabBarControllerConfig.m */; };
+		7CED05FF1EE83167002ADB05 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED05FE1EE83167002ADB05 /* ThreeViewController.m */; };
+		7CED06021EE83170002ADB05 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED06011EE83170002ADB05 /* FourViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CED05D21EE7FD31002ADB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CED05B01EE7FD31002ADB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CED05B71EE7FD31002ADB05;
+			remoteInfo = CYLTabBarControllerDemo;
+		};
+		7CED05DD1EE7FD32002ADB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CED05B01EE7FD31002ADB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CED05B71EE7FD31002ADB05;
+			remoteInfo = CYLTabBarControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08B4624C486B3C62B915696E /* Pods-CYLTabBarControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYLTabBarControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYLTabBarControllerDemo/Pods-CYLTabBarControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1D15CA71139076BEF28CF34B /* Pods-CYLTabBarControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYLTabBarControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CYLTabBarControllerDemo/Pods-CYLTabBarControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		41CAB602C05AD55326CFDDE2 /* libPods-CYLTabBarControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYLTabBarControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED05B81EE7FD31002ADB05 /* CYLTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYLTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED05BC1EE7FD31002ADB05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CED05BE1EE7FD31002ADB05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CED05BF1EE7FD31002ADB05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CED05C11EE7FD31002ADB05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CED05C21EE7FD31002ADB05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CED05C51EE7FD31002ADB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CED05C71EE7FD31002ADB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CED05CA1EE7FD31002ADB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CED05CC1EE7FD31002ADB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CED05D11EE7FD31002ADB05 /* CYLTabBarControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYLTabBarControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED05D51EE7FD31002ADB05 /* CYLTabBarControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerDemoTests.m; sourceTree = "<group>"; };
+		7CED05D71EE7FD31002ADB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CED05DC1EE7FD32002ADB05 /* CYLTabBarControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYLTabBarControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED05E01EE7FD32002ADB05 /* CYLTabBarControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerDemoUITests.m; sourceTree = "<group>"; };
+		7CED05E21EE7FD32002ADB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CED05EE1EE8005C002ADB05 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7CED05EF1EE8005C002ADB05 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7CED05F11EE80096002ADB05 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		7CED05F21EE80096002ADB05 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		7CED05F41EE8009F002ADB05 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		7CED05F51EE8009F002ADB05 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		7CED05F71EE80750002ADB05 /* SmallOneBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallOneBtn.h; sourceTree = "<group>"; };
+		7CED05F81EE80750002ADB05 /* SmallOneBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallOneBtn.m; sourceTree = "<group>"; };
+		7CED05FA1EE82FF3002ADB05 /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
+		7CED05FB1EE82FF3002ADB05 /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
+		7CED05FD1EE83167002ADB05 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		7CED05FE1EE83167002ADB05 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		7CED06001EE83170002ADB05 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		7CED06011EE83170002ADB05 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CED05B51EE7FD31002ADB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253AE3F7BA18E07ED69FDF70 /* libPods-CYLTabBarControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED05CE1EE7FD31002ADB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED05D91EE7FD32002ADB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D77A66EB18FFB3DEF3FB27C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D15CA71139076BEF28CF34B /* Pods-CYLTabBarControllerDemo.debug.xcconfig */,
+				08B4624C486B3C62B915696E /* Pods-CYLTabBarControllerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CED05AF1EE7FD31002ADB05 = {
+			isa = PBXGroup;
+			children = (
+				7CED05BA1EE7FD31002ADB05 /* CYLTabBarControllerDemo */,
+				7CED05D41EE7FD31002ADB05 /* CYLTabBarControllerDemoTests */,
+				7CED05DF1EE7FD32002ADB05 /* CYLTabBarControllerDemoUITests */,
+				7CED05B91EE7FD31002ADB05 /* Products */,
+				6D77A66EB18FFB3DEF3FB27C /* Pods */,
+				D6FFE517C5C5F63C064ABD40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CED05B91EE7FD31002ADB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CED05B81EE7FD31002ADB05 /* CYLTabBarControllerDemo.app */,
+				7CED05D11EE7FD31002ADB05 /* CYLTabBarControllerDemoTests.xctest */,
+				7CED05DC1EE7FD32002ADB05 /* CYLTabBarControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CED05BA1EE7FD31002ADB05 /* CYLTabBarControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7CED05BE1EE7FD31002ADB05 /* AppDelegate.h */,
+				7CED05BF1EE7FD31002ADB05 /* AppDelegate.m */,
+				7CED05FA1EE82FF3002ADB05 /* CYLTabBarControllerConfig.h */,
+				7CED05FB1EE82FF3002ADB05 /* CYLTabBarControllerConfig.m */,
+				7CED05C11EE7FD31002ADB05 /* ViewController.h */,
+				7CED05C21EE7FD31002ADB05 /* ViewController.m */,
+				7CED05EE1EE8005C002ADB05 /* MainViewController.h */,
+				7CED05EF1EE8005C002ADB05 /* MainViewController.m */,
+				7CED05F11EE80096002ADB05 /* OneViewController.h */,
+				7CED05F21EE80096002ADB05 /* OneViewController.m */,
+				7CED05F41EE8009F002ADB05 /* TwoViewController.h */,
+				7CED05F51EE8009F002ADB05 /* TwoViewController.m */,
+				7CED05FD1EE83167002ADB05 /* ThreeViewController.h */,
+				7CED05FE1EE83167002ADB05 /* ThreeViewController.m */,
+				7CED06001EE83170002ADB05 /* FourViewController.h */,
+				7CED06011EE83170002ADB05 /* FourViewController.m */,
+				7CED05F71EE80750002ADB05 /* SmallOneBtn.h */,
+				7CED05F81EE80750002ADB05 /* SmallOneBtn.m */,
+				7CED05C41EE7FD31002ADB05 /* Main.storyboard */,
+				7CED05C71EE7FD31002ADB05 /* Assets.xcassets */,
+				7CED05C91EE7FD31002ADB05 /* LaunchScreen.storyboard */,
+				7CED05CC1EE7FD31002ADB05 /* Info.plist */,
+				7CED05BB1EE7FD31002ADB05 /* Supporting Files */,
+			);
+			path = CYLTabBarControllerDemo;
+			sourceTree = "<group>";
+		};
+		7CED05BB1EE7FD31002ADB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CED05BC1EE7FD31002ADB05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CED05D41EE7FD31002ADB05 /* CYLTabBarControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CED05D51EE7FD31002ADB05 /* CYLTabBarControllerDemoTests.m */,
+				7CED05D71EE7FD31002ADB05 /* Info.plist */,
+			);
+			path = CYLTabBarControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		7CED05DF1EE7FD32002ADB05 /* CYLTabBarControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CED05E01EE7FD32002ADB05 /* CYLTabBarControllerDemoUITests.m */,
+				7CED05E21EE7FD32002ADB05 /* Info.plist */,
+			);
+			path = CYLTabBarControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		D6FFE517C5C5F63C064ABD40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41CAB602C05AD55326CFDDE2 /* libPods-CYLTabBarControllerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CED05B71EE7FD31002ADB05 /* CYLTabBarControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CED05E51EE7FD32002ADB05 /* Build configuration list for PBXNativeTarget "CYLTabBarControllerDemo" */;
+			buildPhases = (
+				7EDF44C106519395AB61BC86 /* [CP] Check Pods Manifest.lock */,
+				7CED05B41EE7FD31002ADB05 /* Sources */,
+				7CED05B51EE7FD31002ADB05 /* Frameworks */,
+				7CED05B61EE7FD31002ADB05 /* Resources */,
+				85D2870AD043A60AC4782334 /* [CP] Embed Pods Frameworks */,
+				E2E3762982D48178E49FC373 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYLTabBarControllerDemo;
+			productName = CYLTabBarControllerDemo;
+			productReference = 7CED05B81EE7FD31002ADB05 /* CYLTabBarControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CED05D01EE7FD31002ADB05 /* CYLTabBarControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CED05E81EE7FD32002ADB05 /* Build configuration list for PBXNativeTarget "CYLTabBarControllerDemoTests" */;
+			buildPhases = (
+				7CED05CD1EE7FD31002ADB05 /* Sources */,
+				7CED05CE1EE7FD31002ADB05 /* Frameworks */,
+				7CED05CF1EE7FD31002ADB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CED05D31EE7FD31002ADB05 /* PBXTargetDependency */,
+			);
+			name = CYLTabBarControllerDemoTests;
+			productName = CYLTabBarControllerDemoTests;
+			productReference = 7CED05D11EE7FD31002ADB05 /* CYLTabBarControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CED05DB1EE7FD32002ADB05 /* CYLTabBarControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CED05EB1EE7FD32002ADB05 /* Build configuration list for PBXNativeTarget "CYLTabBarControllerDemoUITests" */;
+			buildPhases = (
+				7CED05D81EE7FD32002ADB05 /* Sources */,
+				7CED05D91EE7FD32002ADB05 /* Frameworks */,
+				7CED05DA1EE7FD32002ADB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CED05DE1EE7FD32002ADB05 /* PBXTargetDependency */,
+			);
+			name = CYLTabBarControllerDemoUITests;
+			productName = CYLTabBarControllerDemoUITests;
+			productReference = 7CED05DC1EE7FD32002ADB05 /* CYLTabBarControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CED05B01EE7FD31002ADB05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "费俊杰";
+				TargetAttributes = {
+					7CED05B71EE7FD31002ADB05 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					7CED05D01EE7FD31002ADB05 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CED05B71EE7FD31002ADB05;
+					};
+					7CED05DB1EE7FD32002ADB05 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CED05B71EE7FD31002ADB05;
+					};
+				};
+			};
+			buildConfigurationList = 7CED05B31EE7FD31002ADB05 /* Build configuration list for PBXProject "CYLTabBarControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CED05AF1EE7FD31002ADB05;
+			productRefGroup = 7CED05B91EE7FD31002ADB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CED05B71EE7FD31002ADB05 /* CYLTabBarControllerDemo */,
+				7CED05D01EE7FD31002ADB05 /* CYLTabBarControllerDemoTests */,
+				7CED05DB1EE7FD32002ADB05 /* CYLTabBarControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CED05B61EE7FD31002ADB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED05CB1EE7FD31002ADB05 /* LaunchScreen.storyboard in Resources */,
+				7CED05C81EE7FD31002ADB05 /* Assets.xcassets in Resources */,
+				7CED05C61EE7FD31002ADB05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED05CF1EE7FD31002ADB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED05DA1EE7FD32002ADB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EDF44C106519395AB61BC86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85D2870AD043A60AC4782334 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYLTabBarControllerDemo/Pods-CYLTabBarControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2E3762982D48178E49FC373 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CYLTabBarControllerDemo/Pods-CYLTabBarControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CED05B41EE7FD31002ADB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED05C31EE7FD31002ADB05 /* ViewController.m in Sources */,
+				7CED05F31EE80096002ADB05 /* OneViewController.m in Sources */,
+				7CED06021EE83170002ADB05 /* FourViewController.m in Sources */,
+				7CED05C01EE7FD31002ADB05 /* AppDelegate.m in Sources */,
+				7CED05F61EE8009F002ADB05 /* TwoViewController.m in Sources */,
+				7CED05FC1EE82FF3002ADB05 /* CYLTabBarControllerConfig.m in Sources */,
+				7CED05BD1EE7FD31002ADB05 /* main.m in Sources */,
+				7CED05FF1EE83167002ADB05 /* ThreeViewController.m in Sources */,
+				7CED05F91EE80750002ADB05 /* SmallOneBtn.m in Sources */,
+				7CED05F01EE8005C002ADB05 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED05CD1EE7FD31002ADB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED05D61EE7FD31002ADB05 /* CYLTabBarControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED05D81EE7FD32002ADB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED05E11EE7FD32002ADB05 /* CYLTabBarControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CED05D31EE7FD31002ADB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CED05B71EE7FD31002ADB05 /* CYLTabBarControllerDemo */;
+			targetProxy = 7CED05D21EE7FD31002ADB05 /* PBXContainerItemProxy */;
+		};
+		7CED05DE1EE7FD32002ADB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CED05B71EE7FD31002ADB05 /* CYLTabBarControllerDemo */;
+			targetProxy = 7CED05DD1EE7FD32002ADB05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CED05C41EE7FD31002ADB05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CED05C51EE7FD31002ADB05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CED05C91EE7FD31002ADB05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CED05CA1EE7FD31002ADB05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CED05E31EE7FD32002ADB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CED05E41EE7FD32002ADB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CED05E61EE7FD32002ADB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D15CA71139076BEF28CF34B /* Pods-CYLTabBarControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYLTabBarControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = junjie.CYLTabBarControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CED05E71EE7FD32002ADB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B4624C486B3C62B915696E /* Pods-CYLTabBarControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYLTabBarControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = junjie.CYLTabBarControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CED05E91EE7FD32002ADB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYLTabBarControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = junjie.CYLTabBarControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYLTabBarControllerDemo.app/CYLTabBarControllerDemo";
+			};
+			name = Debug;
+		};
+		7CED05EA1EE7FD32002ADB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYLTabBarControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = junjie.CYLTabBarControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYLTabBarControllerDemo.app/CYLTabBarControllerDemo";
+			};
+			name = Release;
+		};
+		7CED05EC1EE7FD32002ADB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYLTabBarControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = junjie.CYLTabBarControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYLTabBarControllerDemo;
+			};
+			name = Debug;
+		};
+		7CED05ED1EE7FD32002ADB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYLTabBarControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = junjie.CYLTabBarControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYLTabBarControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CED05B31EE7FD31002ADB05 /* Build configuration list for PBXProject "CYLTabBarControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED05E31EE7FD32002ADB05 /* Debug */,
+				7CED05E41EE7FD32002ADB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CED05E51EE7FD32002ADB05 /* Build configuration list for PBXNativeTarget "CYLTabBarControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED05E61EE7FD32002ADB05 /* Debug */,
+				7CED05E71EE7FD32002ADB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CED05E81EE7FD32002ADB05 /* Build configuration list for PBXNativeTarget "CYLTabBarControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED05E91EE7FD32002ADB05 /* Debug */,
+				7CED05EA1EE7FD32002ADB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CED05EB1EE7FD32002ADB05 /* Build configuration list for PBXNativeTarget "CYLTabBarControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED05EC1EE7FD32002ADB05 /* Debug */,
+				7CED05ED1EE7FD32002ADB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CED05B01EE7FD31002ADB05 /* Project object */;
+}

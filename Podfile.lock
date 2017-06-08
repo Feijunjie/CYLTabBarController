@@ -1,0 +1,12 @@
+PODS:
+  - CYLTabBarController (1.10.0)
+
+DEPENDENCIES:
+  - CYLTabBarController
+
+SPEC CHECKSUMS:
+  CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
+
+PODFILE CHECKSUM: 367e6172356cef1ecbaa9158fd7a075d782df1aa
+
+COCOAPODS: 1.2.0
